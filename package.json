@@ -23,7 +23,9 @@
     "react-router-dom": "^5.1.2",
     "react-table": "6.6.0",
     "reactstrap": "^8.5.1",
-    "font-awesome": "4.7.0"
+    "font-awesome": "4.7.0",
+    "node":"v12.16.1",
+    "start":"json-server --watch db.json"
 
   },
   "devDependencies": {
