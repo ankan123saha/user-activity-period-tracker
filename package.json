@@ -2,7 +2,7 @@
   "name": "user_activity_period_tracker",
   "version": "1.0.0",
   "engines": {
-    "node": "12.x"
+    "node": "7.x"
   },
   "description": "",
   "main": "client/src/index.js",
@@ -28,7 +28,7 @@
     "react-table": "6.6.0",
     "reactstrap": "^8.5.1",
     "font-awesome": "4.7.0",
-    "node":"v12.16.1"
+    "node":"7.8.3"
 
   },
   "devDependencies": {
