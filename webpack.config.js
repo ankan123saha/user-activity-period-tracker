@@ -1,5 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const port = process.env.PORT
+
 
 module.exports = {
     entry: {
@@ -50,7 +52,7 @@ module.exports = {
         contentBase: path.join(__dirname, 'build'),
         compress: true,
         proxy: {
-            '/api': 'http://localhost:4000'
+            '/api': 'http://localhost:port'
         }
     },
     resolve: {
