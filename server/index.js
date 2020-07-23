@@ -7,7 +7,7 @@ const config = require(path.join(__dirname, "../webpack.config.js"));
 const compiler = webpack(config);
 const app = express();
 
-const port = process.env.PORT || 4000
+const port = process.env.PORT
 app.use(webpackDevMiddleware(compiler, config.devServer));
 app.use(webpackHotMiddleware(compiler));
 app.use(express.static(path.join(__dirname, '../build')));

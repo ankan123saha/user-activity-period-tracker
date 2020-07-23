@@ -11,7 +11,7 @@
     "build": "webpack --config webpack.config.js",
     "dev": "node server/index.js",
     "backend-mock":"json-server --watch db.json",
-    "start": "npm run dev"
+    "start": "concurrently 'npm:dev' 'npm:backend-mock'"
   },
   "dependencies": {
     "axios": "^0.19.2",
