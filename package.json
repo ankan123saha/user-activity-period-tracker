@@ -9,12 +9,14 @@
   "main": "client/src/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "dev": "nodemon server/index.js",
-    "start": "nodemon server/index.js & json-server --watch db.json"
+    "dev": "node server/index.js",
+    "backend-mock":"json-server --watch db.json",
+    "start": "concurrently 'npm:dev' 'npm:backend-mock'"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.1.3",
+    "concurrently": "^5.2.0",
     "core-js": "^3.2.1",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
