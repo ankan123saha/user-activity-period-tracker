@@ -51,7 +51,9 @@ class Homepage extends React.Component {
 
 
     fliterModalData = () => {
-        var modalData = [...this.state.originalModalData]
+        let modalData = JSON.stringify(this.state.originalModalData)
+        modalData = JSON.parse(modalData)
+
         modalData = modalData.filter((item) => {
             return (this.compareDates(item.start_time) && this.compareDates(item.end_time))
         })
