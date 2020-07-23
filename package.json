@@ -10,7 +10,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "dev": "nodemon server/index.js",
-    "start": "node server/index.js"
+    "start": "node server/index.js && json-server --watch db.json"
   },
   "dependencies": {
     "axios": "^0.19.2",
