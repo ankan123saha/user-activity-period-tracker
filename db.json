@@ -1,0 +1,137 @@
+{
+  "userData": [
+    {
+			"id": "W012A3CDE",
+			"real_name": "Emilia Clarker",
+			"tz": "America/Los_Angeles",
+			"activity_periods": [{
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"start_time": "Feb 1 2020  3:33PM",
+					"end_time": "Feb 1 2020 4:54PM"
+				},
+				{
+					"start_time": "Feb 1 2020  5:33PM",
+					"end_time": "Feb 1 2020 6:54PM"
+				},
+				{
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 2:00PM"
+				},
+				{
+					"start_time": "Mar 1 2020  3:11AM",
+					"end_time": "Mar 1 2020 4:00PM"
+				},	{
+					"start_time": "Mar 1 2020  5:11AM",
+					"end_time": "Mar 1 2020 6:00PM"
+				},
+				{
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA4",
+			"real_name": "Kit Harington",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+				"start_time": "Feb 1 2020  1:33PM",
+				"end_time": "Feb 1 2020 1:54PM"
+			},
+			{
+				"start_time": "Feb 1 2020  3:33PM",
+				"end_time": "Feb 1 2020 4:54PM"
+			},
+			{
+				"start_time": "Feb 1 2020  5:33PM",
+				"end_time": "Feb 1 2020 6:54PM"
+			},
+			{
+				"start_time": "Mar 1 2020  11:11AM",
+				"end_time": "Mar 1 2020 2:00PM"
+			},
+			{
+				"start_time": "Mar 1 2020  3:11AM",
+				"end_time": "Mar 1 2020 4:00PM"
+			},	{
+				"start_time": "Mar 1 2020  5:11AM",
+				"end_time": "Mar 1 2020 6:00PM"
+			},
+			{
+				"start_time": "Mar 16 2020  5:33PM",
+				"end_time": "Mar 16 2020 8:02PM"
+			}
+		]
+    },
+    {
+			"id": "W07QCRPA5",
+			"real_name": "Sophie Turner",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+				"start_time": "Feb 1 2020  1:33PM",
+				"end_time": "Feb 1 2020 1:54PM"
+			},
+			{
+				"start_time": "Feb 1 2020  3:33PM",
+				"end_time": "Feb 1 2020 4:54PM"
+			},
+			{
+				"start_time": "Feb 1 2020  5:33PM",
+				"end_time": "Feb 1 2020 6:54PM"
+			},
+			{
+				"start_time": "Mar 1 2020  11:11AM",
+				"end_time": "Mar 1 2020 2:00PM"
+			},
+			{
+				"start_time": "Mar 1 2020  3:11AM",
+				"end_time": "Mar 1 2020 4:00PM"
+			},	{
+				"start_time": "Mar 1 2020  5:11AM",
+				"end_time": "Mar 1 2020 6:00PM"
+			},
+			{
+				"start_time": "Mar 16 2020  5:33PM",
+				"end_time": "Mar 16 2020 8:02PM"
+			}
+		]
+    },
+    {
+			"id": "W07QCRPA6",
+			"real_name": "Maisie Williams",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+				"start_time": "Feb 1 2020  1:33PM",
+				"end_time": "Feb 1 2020 1:54PM"
+			},
+			{
+				"start_time": "Feb 1 2020  3:33PM",
+				"end_time": "Feb 1 2020 4:54PM"
+			},
+			{
+				"start_time": "Feb 1 2020  5:33PM",
+				"end_time": "Feb 1 2020 6:54PM"
+			},
+			{
+				"start_time": "Mar 1 2020  11:11AM",
+				"end_time": "Mar 1 2020 2:00PM"
+			},
+			{
+				"start_time": "Mar 1 2020  3:11AM",
+				"end_time": "Mar 1 2020 4:00PM"
+			},	{
+				"start_time": "Mar 1 2020  5:11AM",
+				"end_time": "Mar 1 2020 6:00PM"
+			},
+			{
+				"start_time": "Mar 16 2020  5:33PM",
+				"end_time": "Mar 16 2020 8:02PM"
+			}
+		]
+		}
+  ]
+
+}

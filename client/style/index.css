@@ -1,0 +1,98 @@
+.user-list-container{
+    margin-top: 10%;
+    font-size: 1.5rem;
+}
+.rt-tr{
+    display: flex;
+}
+#root{
+    background-color: #1C5598;
+}
+
+.rdtPicker{
+    display: none;
+    position: absolute;
+    width: 250px;
+    padding: 4px;
+    margin-top: 1px;
+    z-index: 99999 !important;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    border: 1px solid #f9f9f9;
+}
+.rdtOpen .rdtPicker{
+    display: block;
+    position: absolute;
+}
+.rdtPicker table {
+    width: 100%;
+    margin: 0;
+}
+.rdtPicker th {
+    text-align: center;
+    height: 28px;
+    cursor: pointer;
+}
+.rdtPicker td {
+    cursor: pointer;
+    text-align: center;
+    height: 28px;
+}
+.rdtOld {
+    color: #999999;
+}
+.rdt{
+    width:80px;
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+.user-card{
+    margin-bottom: 5px;
+    box-shadow: 0px 2px 4px #ccc;
+}
+
+.modal-header {
+    background-color: #1C5598;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.modal-header .title {
+    font-weight: 400;
+}
+
+.modal-header button.close {
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.list-item{
+    width: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.39);
+    margin: auto;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+.name-icon{
+    border: 1px solid;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    background-color: #1C5598;
+    color: white;
+}
+
+.user-list-header{
+    width: 50%;
+    margin: auto;
+}
+
