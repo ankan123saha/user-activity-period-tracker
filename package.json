@@ -1,6 +1,9 @@
 {
   "name": "user_activity_period_tracker",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
   "description": "",
   "main": "client/src/index.js",
   "scripts": {
