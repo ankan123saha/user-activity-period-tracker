@@ -13,6 +13,12 @@
     "backend-mock":"json-server --watch db.json",
     "start": "concurrently 'npm:dev' 'npm:backend-mock'"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.1.3",
