@@ -6,8 +6,9 @@ const webpackHotMiddleware = require("webpack-hot-middleware");
 const config = require(path.join(__dirname, "../webpack.config.js"));
 const compiler = webpack(config);
 const app = express();
-
+const host = '0.0.0.0';
 const port = process.env.PORT
+
 app.use(webpackDevMiddleware(compiler, config.devServer));
 app.use(webpackHotMiddleware(compiler));
 app.use(express.static(path.join(__dirname, '../build')));
@@ -16,4 +17,6 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../build', 'index.html'));
 });
 
-app.listen(port);
+app.listen(port, host, function() {
+    console.log("Server started.......on host"+host+"port"+port);
+  });
